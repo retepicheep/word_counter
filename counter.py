@@ -8,9 +8,11 @@ def count_words(wordString):
     #print(wordsLen)
     return wordsLen
 
-def get_input():
+def get_input(priint):
     wordsString = input()
     count_words(wordsString)
+    if priint == True:
+        print(wordsString)
 
 #get_input()
 
