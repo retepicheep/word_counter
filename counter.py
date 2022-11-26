@@ -10,9 +10,9 @@ def count_words(wordString):
 
 def get_input(priint):
     wordsString = input()
-    count_words(wordsString)
+    wordsNum = count_words(wordsString)
     if priint == True:
-        print(wordsString)
+        print(wordsNum)
 
 #get_input()
 
